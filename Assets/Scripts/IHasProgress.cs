@@ -1,0 +1,18 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public interface IHasProgress
+{
+   public event EventHandler<OnProgressChangedEventArgs> OnProgressChanged; 
+   public class OnProgressChangedEventArgs : EventArgs
+   {
+      public float ProgressNormalized { get; private set; }
+
+      public OnProgressChangedEventArgs(float progressNormalized)
+      {
+         ProgressNormalized = progressNormalized;
+      }
+   }
+}

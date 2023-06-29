@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee70a2687091b03faaea2109a720c7b1, type: 3}
+  m_Name: StaleStake
+  m_EditorClassIdentifier: 
+  _recipeKitchenObjectSOList:
+  - {fileID: 11400000, guid: b38313c89ce2e66cb901feaf462f141c, type: 2}
+  _recipeName: Stale Stake
